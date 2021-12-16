@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { response } from 'express';
 import morgan from 'morgan';
 import rateLimit from 'express-rate-limit';
 
@@ -28,12 +28,11 @@ app.use('/api', limiter);
 app.use('/api/v1/users', router);
 
 app.all('*', (req, res) => {
-  logger.error(
-    `${err.status || 500} - ${res.statusMessage} - ${err.message} - ${
-      req.originalUrl
-    } - ${req.method} - ${req.ip}`
-  );
-  handleError(404, `Can't find ${req.originalUrl} on this server!`, res);
+  logger.warn(` Can't find ${req.originalUrl} on this server! - ${req.method}`);
+  res.status(404).json({
+    status: 'fail',
+    errorMessage: `Can't find ${req.originalUrl} on this server!`,
+  });
 });
 
 export default app;

@@ -1,0 +1,8 @@
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:14:06"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:16:24"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:16:59"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:21:36"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:21:44"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:22:39"}
+{"level":"error","message":" /api/v1/user not found  - POST","timestamp":"2021-12-16 16:02:19"}
+{"level":"warn","message":" /api/v1/user not found  - POST","timestamp":"2021-12-16 16:02:54"}

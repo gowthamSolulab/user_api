@@ -1,10 +1,8 @@
-import User from "../modals/userModal";
-import errorResponse from "../helpers/errorResponse";
-import catchAsync from "../helpers/catchAsync";
+import User from '../modals/userModal';
 
 module.exports = {
-  createService: async (req, res) => {
-    const { username, email, password, mobileno, countryCode } = req.body;
+  createService: async (data) => {
+    const { username, email, password, mobileno, countryCode } = data;
     const newUser = await User.create({
       username,
       email,
@@ -12,27 +10,27 @@ module.exports = {
       mobileno,
       countryCode,
     });
-    if (!newUser) return errorResponse(400, "failed", res);
+    if (!newUser) return null;
     return newUser;
   },
-  getService: async (req, res) => {
-    const user = await User.findById(req.params.id);
-    if (!user) throw errorResponse(404, "no user found", res);
+  getService: async (id) => {
+    const user = await User.findById(id);
+    if (!user) return;
     return user;
   },
-  getAllService: async (req, res) => {
+  getAllService: async () => {
     const user = await User.find();
-    if (!user) return errorResponse(404, "no users found", res);
+    if (!user) return null;
     return user;
   },
-  updateService: async (req, res) => {
-    const user = await User.findByIdAndUpdate(req.params.id, req.body);
-    if (!user) return errorResponse(404, "no user found", res);
+  updateService: async (id, body) => {
+    const user = await User.findByIdAndUpdate(id, body);
+    if (!user) return null;
     return user;
   },
-  deleteService: async (req, res) => {
-    const user = await User.findById(req.params.id);
-    if (!user) return errorResponse(404, "no user found", res);
+  deleteService: async (id) => {
+    const user = await User.findById(id);
+    if (!user) return null;
     const deletedUser = await User.deleteOne(user);
     return deletedUser;
   },

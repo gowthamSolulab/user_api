@@ -1,4 +1,5 @@
-import { userLogger } from '../logs/logger';
+import { errorStatus } from './errorData';
+
 module.exports = {
   handleResponse: (statusCode, data, res) => {
     res.status(statusCode).json({
@@ -6,11 +7,10 @@ module.exports = {
       data,
     });
   },
-  handleError: (statusCode, error, res) => {
-    userLogger.info('user signup failed mongoDB error');
-    res.status(statusCode).json({
-      status: 'fail',
-      errorMessage: error,
-    });
+  handleError: (statusCode, res) => {
+    const error = errorStatus.find(
+      (statusobj) => statusobj.status === statusCode
+    );
+    res.status(statusCode).json(error);
   },
 };

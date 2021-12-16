@@ -1,23 +1,24 @@
-import express from "express";
+import express from 'express';
 import {
   createUser,
   getUser,
   getAllUsers,
   updateUser,
   deleteUser,
-} from "./userController";
+} from './userController';
 import {
   validateSignup,
   userValidationRules,
-} from "../../middleware/userValidation";
+  duplicateValidation,
+} from '../../middleware/userValidator';
 
 const router = express.Router();
 
 router
-  .route("/")
-  .post(userValidationRules(), validateSignup, createUser)
+  .route('/')
+  .post(userValidationRules(), validateSignup, duplicateValidation, createUser)
   .get(getAllUsers);
 
-router.route("/:id").get(getUser).patch(updateUser).delete(deleteUser);
+router.route('/:id').get(getUser).patch(updateUser).delete(deleteUser);
 
 export default router;
