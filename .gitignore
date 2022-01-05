@@ -1,6 +1,5 @@
 node_modules
 config.env
-.babelrc
 .eslintrc.json
 .prettierrc
 temp
