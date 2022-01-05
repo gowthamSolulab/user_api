@@ -1,7 +1,7 @@
 import { connect } from 'mongoose';
 import { config } from 'dotenv';
 
-import { logger } from '../logs/logger';
+import { logger } from '../helpers/logger';
 
 config({ path: './config.env' });
 

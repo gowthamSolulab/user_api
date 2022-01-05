@@ -3,7 +3,7 @@ import jsonexport from 'jsonexport';
 import fs from 'fs';
 import request from 'request';
 
-import { logger } from '../../logs/logger';
+import { logger } from '../../helpers/logger';
 import User from '../user/userModal';
 
 module.exports = {

@@ -1,4 +1,4 @@
-import { logger } from '../logs/logger';
+import { logger } from './logger';
 
 export default (fn) => (req, res, next) => {
   fn(req, res, next).catch((err) => {

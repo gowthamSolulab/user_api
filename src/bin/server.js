@@ -1,7 +1,7 @@
 import { config } from 'dotenv';
 
 import db from '../connections/dbMaster';
-import { logger } from '../logs/logger';
+import { logger } from '../helpers/logger';
 import app from '../app';
 
 process.on('uncaughtException', (err) => {
