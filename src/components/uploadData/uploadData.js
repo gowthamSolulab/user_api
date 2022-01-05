@@ -1,37 +1,37 @@
 import csv from 'csvtojson';
 import jsonexport from 'jsonexport';
-
 import fs from 'fs';
 import request from 'request';
-import { logger } from '../logs/logger';
-import User from '../modals/userModal';
+
+import { logger } from '../../logs/logger';
+import User from '../user/userModal';
 
 module.exports = {
   uploadCsv: async (req, res) => {
     try {
-      fs.writeFileSync('./temp/csv/file.csv', req.file.buffer);
-      const jsonArray = await csv().fromFile('./temp/csv/file.csv');
+      fs.writeFileSync('./public/csv/file.csv', req.file.buffer);
+      const jsonArray = await csv().fromFile('./public/csv/file.csv');
       jsonArray.forEach((obj) => {
         request(
           {
-            url: obj.photo,
+            url: obj.photo, // Url of image to download.
             encoding: null,
           },
           (err, resp, buffer) => {
-            fs.writeFileSync(`./temp/images/${obj.username}.jpg`, buffer);
+            fs.writeFileSync(`./public/img/${obj.username}.jpg`, buffer); // Downloading images to public folder
           }
         );
-        obj.photo = `./temp/images/${obj.username}.jpg`;
+        obj.photo = `./public/img/${obj.username}.jpg`; // Storing image path in photo field
       });
-      // await User.deleteMany();
+
       const users = await User.create(jsonArray);
       if (users)
-        jsonexport(jsonArray, (err, csv) => {
+        jsonexport(jsonArray, (err, jsonData) => {
           if (err)
             return res.status(400).json({
               err,
             });
-          fs.writeFileSync('./temp/csv/file.csv', csv);
+          fs.writeFileSync('./public/csv/file.csv', jsonData);
         });
 
       return res.status(200).json({

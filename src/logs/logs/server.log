@@ -1,0 +1,138 @@
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:14:06"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:16:24"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:16:59"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:21:36"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:21:44"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"monas123@test.com"},"level":"error","timestamp":"2021-12-16 15:22:39"}
+{"level":"error","message":" /api/v1/user not found  - POST","timestamp":"2021-12-16 16:02:19"}
+{"level":"warn","message":" /api/v1/user not found  - POST","timestamp":"2021-12-16 16:02:54"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","timestamp":"2021-12-30 17:27:56"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","timestamp":"2021-12-30 17:28:43"}
+{"level":"error","timestamp":"2021-12-30 17:37:40"}
+{"level":"error","timestamp":"2021-12-30 17:37:53"}
+{"level":"error","timestamp":"2021-12-30 17:40:38"}
+{"level":"error","timestamp":"2021-12-30 17:41:31"}
+{"level":"error","timestamp":"2021-12-30 17:42:16"}
+{"level":"error","message":"UNCAUGHT EXCEPTION! | TypeError | (0 , _dbMaster.default) is not a function","timestamp":"2022-01-05 12:56:28"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 12:56:30"}
+{"level":"error","message":"UNCAUGHT EXCEPTION! | TypeError | (0 , _dbMaster.default) is not a function","timestamp":"2022-01-05 12:57:20"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 12:57:21"}
+{"level":"error","message":"UNCAUGHT EXCEPTION! | TypeError | (0 , _dbMaster.default) is not a function","timestamp":"2022-01-05 13:00:25"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 13:00:26"}
+{"level":"error","message":"UNCAUGHT EXCEPTION! | Error | listen EADDRINUSE: address already in use :::3000","timestamp":"2022-01-05 13:05:07"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 13:05:08"}
+{"level":"error","message":"UNCAUGHT EXCEPTION! | Error | listen EADDRINUSE: address already in use :::3000","timestamp":"2022-01-05 13:05:18"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 13:05:19"}
+{"level":"error","message":"UNCAUGHT EXCEPTION! | Error | listen EADDRINUSE: address already in use :::3000","timestamp":"2022-01-05 13:05:36"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 13:05:37"}
+{"level":"error","message":"UNCAUGHT EXCEPTION! | Error | listen EADDRINUSE: address already in use :::3000","timestamp":"2022-01-05 13:06:47"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 13:06:48"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 13:07:12"}
+{"level":"error","message":"UNCAUGHT EXCEPTION! | Error | listen EADDRINUSE: address already in use :::3000","timestamp":"2022-01-05 13:07:37"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 13:07:38"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 13:08:30"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 13:08:31"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"user12@test.com"},"level":"error","timestamp":"2022-01-05 13:08:57"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 13:16:03"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 13:16:05"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:18:50"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:18:51"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"user12@test.com"},"level":"error","timestamp":"2022-01-05 14:18:57"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:19:39"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:19:40"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:19:53"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:19:55"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:28:24"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:28:25"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:29:57"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:29:58"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:30:07"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:30:13"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:30:14"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:32:48"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:32:50"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:33:36"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:33:37"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:34:05"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:34:06"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:34:20"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:34:20"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:35:31"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:35:33"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:35:46"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:35:47"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:36:08"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:36:09"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:50:18"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:50:19"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:51:14"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:51:15"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:52:06"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:52:07"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 14:52:19"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 14:52:20"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:00:45"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:00:47"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:01:19"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:01:20"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:05:30"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:05:31"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"user12@test.com"},"level":"error","timestamp":"2022-01-05 15:05:36"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:07:16"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:07:17"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:08:10"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:08:11"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:08:56"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:08:57"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:09:08"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:09:09"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:09:30"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:09:31"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:09:51"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:09:52"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:12:39"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:12:40"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:12:56"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:12:57"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:13:19"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:13:20"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:14:32"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:14:33"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:16:55"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:16:56"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:17:28"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:17:29"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:18:05"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:18:06"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:19:33"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:19:34"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:22:41"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:22:43"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:23:13"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:23:14"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:24:10"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:24:14"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:24:15"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:24:44"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:24:45"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"user12@test.com"},"level":"error","timestamp":"2022-01-05 15:29:50"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:31:13"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:31:14"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:31:20"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:31:21"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:31:34"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:31:35"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:31:40"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:31:41"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:32:23"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:32:24"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:32:34"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:32:35"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:33:40"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:33:41"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:37:59"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:38:00"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:39:44"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:39:45"}
+{"level":"info","message":"App running on port 5000...","timestamp":"2022-01-05 15:40:18"}
+{"level":"info","message":"DB connection successful!","timestamp":"2022-01-05 15:40:19"}

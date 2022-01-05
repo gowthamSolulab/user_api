@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The page you have requested could not be found.  If you feel this may be an error, please contact us.">
+    <meta name="author" content="">
+
+    <title>Page Not Found | Icedrive</title>
+	
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    
+	<!-- Production -->
+    <link href="/frontend/css/min/bs-grid.min.css" rel="stylesheet">   
+    <link href="/frontend/css/min/icedrive-1.3.min.css" rel="stylesheet">
+	
+    <!-- Fonts -->	
+    <link href="/frontend/fonts/roboto.css" rel="stylesheet">
+    <link href="/frontend/fonts/gamja/inc.css" rel="stylesheet">
+    <link href="/frontend/fonts/fa/css/all.min.css" rel="stylesheet">
+
+    <style>
+	body, html {
+		width:100%;
+		height:100%;
+		position:fixed;
+		background: rgb(9,32,110);
+		background: -moz-linear-gradient(0deg, #0ab3d2 0%, #1f4fd0 50%, #09206b 100%);
+		background: -webkit-linear-gradient(0deg, #0ab3d2 0%, #1f4fd0 50%, #09206b 100%);
+		background: linear-gradient(0deg, #0ab3d2 0%, #1f4fd0 50%, #09206b 100%);	
+		
+		color:#fff;
+		font-family:'Roboto';	
+		padding:0;
+		margin:0;
+	}
+	.content {
+		
+	  position: absolute;
+	  top: 50%;
+	  left:50%;
+	  transform:  translateX(-50%) translateY(-50%);
+	}
+	.content > .logo {
+		width:100%;
+		display:block;
+		margin-bottom:20px;
+	}
+	.content > .logo img {
+		max-width:64px;
+		float:left;
+		margin-right:13px;
+	}
+	.content > .logo a {
+		text-decoration:none;
+		color:#FFF;
+	}
+	.logo > a:hover img {
+	
+	  -webkit-filter: drop-shadow(0px 0px 8px rgba(2,235,197,0.8));
+	  filter: drop-shadow(0px 0px 8px rgba(2,235,197,0.8));
+	
+		moz-transition: all .4s ease-in-out;
+		-o-transition: all .4s ease-in-out;
+		-webkit-transition: all .4s ease-in-out;
+		transition: all .4s ease-in-out;
+	}
+	.content > .logo span {
+		font-size:48px;
+		display:inline-block;
+		
+	}
+	.content > .message > h1 {
+		font-size:62px;
+		font-weight:normal;
+		padding:0;
+		margin:0;
+	}
+	.content > .message > p {
+		line-height:1.7;
+	}
+	.content > .message > p > a {
+		color:#FFF;
+		opacity:0.9;
+		text-decoration:none;
+	}
+	.content > .message > p > a:hover {
+		opacity:1;
+	}
+	.bear-fish {
+		background-image:url(/frontend/img/bear-fishing.png);
+		width:500px;
+		height:500px;
+		background-repeat:no-repeat;
+		background-size:contain;
+		position:relative;
+
+		
+		animation: bear-bob 2s infinite ease-in-out;
+		/*, bear-floating 2s infinite linear;*/
+	}
+	.bear-wrap {
+		width:500px;
+		height:500px;
+		position:absolute;
+		bottom:-200px;
+		right:0;
+		/*animation:bear-floating 30s normal linear;*/
+	}
+	.social {
+		margin-top:24px;
+	}
+	.social a {
+		display:inline-block;
+		padding:6px;
+		background-color:#FFF;
+		border-radius:50%;
+		padding-left:7px;
+		padding-right:7px;
+		color:#1a67d0;
+		margin-right:8px;
+	}
+	.social a.fb {
+		padding-left:12px;
+		padding-right:12px;
+	}
+	@keyframes bear-floating {
+		0%   {  }
+		100% {  bottom:-300px; margin-right:500px;}
+	}
+	@keyframes bear-bob {
+		0%   { transform: rotate(1deg); }
+		50%  {   transform: translateY(15px) rotate(0deg); }
+		100% { transform: rotate(1deg);}
+	}
+	
+	@media only screen and (max-width: 992px) {
+		.bear-wrap {
+			display:none;
+		}
+		.content > .message > h1 {
+			font-size:44px;
+		}
+	}
+	@media only screen and (max-width: 648px) {
+		.content {
+			width:90%;
+			padding-left:5%;
+			padding-right:5;
+		}
+		.content > .message > h1 {
+			font-size:34px;
+		}
+	}
+	</style>
+  <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+  <body>
+  
+  <div class="wrap">
+  	
+    <div class="content">
+    	<div class="logo font-q-semi"><a href="/"><img  class="noselect nodrag" src="/frontend/img/icon-sm.png" /><span>icedrive</span></a></div>
+        
+        <div class="message">
+            <h1 class="font-gr-med">Page Not Found</h1>
+            <p>The page you have requested could not be found. <br /> If you feel this may be an error, please <a href='/contact'>contact us</a>.</p>
+            
+                    </div>
+        
+    </div>
+  	
+    <div class="bear-wrap">
+    	<div class="bear-fish"></div>
+    </div>
+    
+  </div>
+  
+  
+  <script type="text/javascript">(function(){window['__CF$cv$params']={r:'6c8bdb268fcfe30e',m:'JmcDib3Y2ToHEcl.n_R_R2kbgYuoqjrKp4apa19DmaI-1641376789-0-AagPjtWPIUNDFM0JzI/5nwIArYK3nPZTQXd3n9X1HCfCH/J33EBEoqMEO2+ksspryfDH5Z5UvAQj+v3vCBLbQptc52VTGHrAMOZYznlYb5Bs9maX+6zoxBhUXPOY7Z91cdFIkxhdHuQXvS9BqcoNZyc=',s:[0x5a4ddd49e7,0x0a6fc7f98c],}})();</script></body>
+</html>
