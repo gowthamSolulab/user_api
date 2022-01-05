@@ -3,6 +3,7 @@ import jsonexport from 'jsonexport';
 
 import fs from 'fs';
 import request from 'request';
+import { logger } from '../logs/logger';
 import User from '../modals/userModal';
 
 module.exports = {
@@ -37,7 +38,7 @@ module.exports = {
         message: 'csv to json converted successfully',
       });
     } catch (err) {
-      // logger.error(err);
+      logger.error(err);
       return res.status(400).json({
         err,
       });
