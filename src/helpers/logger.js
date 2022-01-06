@@ -14,7 +14,7 @@ module.exports = {
     transports: [
       new transports.Console(),
       new transports.File({
-        filename: path.join(__dirname, 'logs/server.log'),
+        filename: path.join(__dirname, '../logs/server.log'),
       }),
     ],
   }),
@@ -29,7 +29,9 @@ module.exports = {
     ),
     transports: [
       new transports.Console(),
-      new transports.File({ filename: path.join(__dirname, 'logs/user.log') }),
+      new transports.File({
+        filename: path.join(__dirname, '../logs/user.log'),
+      }),
     ],
   }),
 };
