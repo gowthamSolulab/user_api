@@ -6,7 +6,16 @@
   "scripts": {
     "start": "nodemon --exec babel-node src/bin/server.js",
     "build": "babel src -d build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier:check": "prettier --config .prettierrc --check \"src/**/*.{ts,css,html}\""
+  },
+   "lint-staged": {
+    "src/**/*.{ts,css,html}": ["npm run prettier:check"]
+  },
+  "husky": {
+    "hooks": {
+    "pre-commit": "lint-staged"
+    }
   },
   "author": "",
   "license": "ISC",
@@ -43,7 +52,9 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
+    "husky": "^7.0.4",
     "image-downloader": "^4.0.3",
+    "lint-staged": "^12.1.5",
     "prettier": "2.5.1"
   }
 }
