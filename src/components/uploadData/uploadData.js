@@ -9,7 +9,7 @@ import User from '../user/userModal';
 module.exports = {
   uploadCsv: async (req, res) => {
     try {
-      fs.writeFileSync('./public/csv/file.csv', req.file.buffer);
+      fs.writeFileSync('./public/csv/file.csv', req.file.buffer); //  csv as buffer using multer
       const jsonArray = await csv().fromFile('./public/csv/file.csv');
       jsonArray.forEach((obj) => {
         request(
