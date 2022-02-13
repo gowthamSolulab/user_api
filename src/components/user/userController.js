@@ -7,7 +7,6 @@ module.exports = {
   createUser: catchAsync(async (req, res) => {
     const data = await create(req.body, User);
     if (!data) return handleError(503, res);
-
     return handleResponse(201, data, res);
   }),
 

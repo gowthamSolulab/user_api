@@ -16,7 +16,24 @@ module.exports = {
   },
 
   getAll: async (modal) => {
-    const user = await modal.find();
+    const date1 = new Date();
+    const date2 = new Date();
+    date1.setDate(date1.getDate() - 1);
+    date1.setUTCHours(18, 30, 0, 0);
+    date2.setDate(date2.getDate());
+    date2.setUTCHours(18, 29, 0, 0);
+
+    const user = await modal.aggregate([
+      {
+        $match: {
+          createdAt: {
+            $gte: date1,
+            $lte: date2,
+          },
+        },
+      },
+    ]);
+    console.log(user);
     if (!user) return false;
     return user;
   },
