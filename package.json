@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "express-rate-limit": "^5.5.1",
     "express-validator": "^6.14.0",
-    "mongoose": "^6.1.1",
+    "mongoose": "^6.4.6",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
     "winston": "^3.3.3"
